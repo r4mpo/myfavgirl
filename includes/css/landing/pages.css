@@ -1,0 +1,57 @@
+/* Media query para telas menores que 576px (dispositivos móveis, incluindo smartphones) */
+@media (max-width: 600px) {
+
+    /* Estilos para dispositivos móveis, incluindo smartphones */
+    .img-item {
+        padding: 5% 5% 5% 5%;
+    }
+
+    .img-item img {
+        width: 50%;
+        height: 20%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img-item img {
+        width: 30%;
+        height: 5%;
+    }
+
+    .texto {
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+
+* {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 14px;
+}
+
+.content {
+    /* background-image: url('../../images/gif/galax-green-1.gif');
+    background-size: cover; */
+    background-color: rgb(0, 42, 0);
+}
+
+.content-itens h4,
+h6,
+hr {
+    color: rgb(0, 255, 0) !important;
+}
+
+.img-item {
+    padding: 5% 5% 5% 5%;
+}
+
+.img-item img {
+    display: block;
+    margin: auto;
+}
+
+.link-p {
+    color: rgb(0, 255, 0);
+}
